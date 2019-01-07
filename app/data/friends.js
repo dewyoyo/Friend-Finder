@@ -24,7 +24,7 @@ var friendList =  [
 "scores": [4,4,2,3,2,2,3,2,4,5]
 },
 { "name": "Jeff",
-"photo": "http://webneel.com/daily/graphics-inspiration-designs/best-3d-character-design-12?size=_originalhttps://www.yahoo.com",
+"photo": "http://webneel.com/daily/sites/default/files/images/project/best-3d-character-design%20(12).jpg",
 "scores": [1,1,1,1,1,1,1,1,1,1]
 },
 { "name": "Kanye West",
