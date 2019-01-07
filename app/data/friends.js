@@ -40,7 +40,7 @@ var friendList =  [
 "scores": [3,3,3,3,3,3,3,3,3,3]
 },
 { "name": "test02",
-"photo": "http://webneel.com/funny-santa-claus-pictures",
+"photo": "http://webneel.com/daily/sites/default/files/images/daily/12-2015/9-santa-claus-pictures-digital-art-by-jordygraph.jpg",
 "scores": [2,2,2,2,2,2,2,2,2,2]
 }
 ];
