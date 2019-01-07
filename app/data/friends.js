@@ -42,6 +42,10 @@ var friendList =  [
 { "name": "test02",
 "photo": "http://webneel.com/daily/sites/default/files/images/daily/12-2015/9-santa-claus-pictures-digital-art-by-jordygraph.jpg",
 "scores": [2,2,2,2,2,2,2,2,2,2]
+},
+{ "name": "test01",
+"photo": "http://webneel.com/daily/sites/default/files/images/daily/07-2015/18-beautiful-peacock-picture.jpg",
+"scores": [2,2,2,2,2,2,2,2,2,2]
 }
 ];
 module.exports = friendList;

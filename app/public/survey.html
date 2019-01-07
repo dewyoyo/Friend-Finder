@@ -262,19 +262,19 @@
 					// Show the modal with the best match
 					$("#results-modal").modal("toggle");
 
-					// clear questionaries  document.forms['form_name'].reset()
-					$("#name").val("");
-					$("#photo").val("");
-					$("#q1").val('').trigger('chosen:updated');
-					$("#q2").val('').trigger('chosen:updated');
-					$("#q3").val('').trigger('chosen:updated');
-					$("#q4").val('').trigger('chosen:updated');
-					$("#q5").val('').trigger('chosen:updated');
-					$("#q6").val('').trigger('chosen:updated');
-					$("#q7").val('').trigger('chosen:updated');
-					$("#q8").val('').trigger('chosen:updated');
-					$("#q9").val('').trigger('chosen:updated');
-					$("#q10").val('').trigger('chosen:updated');
+					// // clear questionaries  document.forms['form_name'].reset()
+					// $("#name").val("");
+					// $("#photo").val("");
+					// $("#q1").val('').trigger('chosen:updated');
+					// $("#q2").val('').trigger('chosen:updated');
+					// $("#q3").val('').trigger('chosen:updated');
+					// $("#q4").val('').trigger('chosen:updated');
+					// $("#q5").val('').trigger('chosen:updated');
+					// $("#q6").val('').trigger('chosen:updated');
+					// $("#q7").val('').trigger('chosen:updated');
+					// $("#q8").val('').trigger('chosen:updated');
+					// $("#q9").val('').trigger('chosen:updated');
+					// $("#q10").val('').trigger('chosen:updated');
 
 				});
 			} else {
@@ -282,23 +282,22 @@
 			}
 		});
 
-		// // when user close the result modal window
-		// $("#results-modal").on("hidden.bs.modal", function () {
-		// 	// clear questionaries  document.forms['form_name'].reset()
-		// 	console.log("modal close")
-		// 	$("#name").val("");
-		// 	$("#photo").val("");
-		// 	$("#q1").val('').trigger('chosen:updated');
-		// 	$("#q2").val('').trigger('chosen:updated');
-		// 	$("#q3").val('').trigger('chosen:updated');
-		// 	$("#q4").val('').trigger('chosen:updated');
-		// 	$("#q5").val('').trigger('chosen:updated');
-		// 	$("#q6").val('').trigger('chosen:updated');
-		// 	$("#q7").val('').trigger('chosen:updated');
-		// 	$("#q8").val('').trigger('chosen:updated');
-		// 	$("#q9").val('').trigger('chosen:updated');
-		// 	$("#q10").val('').trigger('chosen:updated');
-		// });
+		// when user close the result modal window
+		$("#results-modal").on("hidden.bs.modal", function () {
+			// clear questionaries
+			$("#name").val("");
+			$("#photo").val("");
+			$("#q1").val('').trigger('chosen:updated');
+			$("#q2").val('').trigger('chosen:updated');
+			$("#q3").val('').trigger('chosen:updated');
+			$("#q4").val('').trigger('chosen:updated');
+			$("#q5").val('').trigger('chosen:updated');
+			$("#q6").val('').trigger('chosen:updated');
+			$("#q7").val('').trigger('chosen:updated');
+			$("#q8").val('').trigger('chosen:updated');
+			$("#q9").val('').trigger('chosen:updated');
+			$("#q10").val('').trigger('chosen:updated');
+		});
 
 
 	</script>
